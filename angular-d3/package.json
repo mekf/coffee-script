@@ -2,7 +2,7 @@
   "name": "angular-d3",
   "version": "0.1.0",
   "description": "",
-  "main": "Grunt.coffee",
+  "main": "Gruntfile.coffee",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
