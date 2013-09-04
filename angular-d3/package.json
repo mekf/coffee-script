@@ -1,0 +1,21 @@
+{
+  "name": "angular-d3",
+  "version": "0.1.0",
+  "description": "",
+  "main": "Grunt.coffee",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-haml": "~0.7.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mekf/js-coffee.git"
+  },
+  "author": "Minh Ha",
+  "license": "MIT"
+}
