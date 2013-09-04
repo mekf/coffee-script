@@ -6,6 +6,17 @@
     %script{ src: '//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js'}
     %script{ src: '//cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js' }
     %script{ src: 'js/scripts.js'}
+    %link{ rel: 'stylesheet', href: 'css/styles.css' }
   
   %body{ ng-ctrl: 'AppCtrl' }
-    %ghvisualisation{ val: 'data' }
+    %h1 AngularJS D3 Demo
+    %form{ ng-submit: 'getCommitData()' }
+      User
+      %input{ ng-model: 'user' }
+      Repo
+      %input{ ng-model: 'repo' }
+      %input{ type: 'submit', value: 'Get Data' }
+      Grouped
+      %input{ type: 'checkbox', ng-model: 'grouped'}
+    
+    %gh-visualisation{ val: 'data' }
