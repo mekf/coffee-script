@@ -8,7 +8,7 @@
     %script{ src: 'js/scripts.js'}
     %link{ rel: 'stylesheet', href: 'css/styles.css' }
   
-  %body{ ng-ctrl: 'AppCtrl' }
+  %body{ ng-controller: 'AppCtrl' }
     %h1 AngularJS D3 Demo
     %form{ ng-submit: 'getCommitData()' }
       User
@@ -18,5 +18,6 @@
       %input{ type: 'submit', value: 'Get Data' }
       Grouped
       %input{ type: 'checkbox', ng-model: 'grouped'}
-    
+
+    %p.error {{error}}
     %gh-visualisation{ val: 'data' }
