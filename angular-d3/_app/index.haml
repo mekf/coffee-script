@@ -17,7 +17,7 @@
       %input{ ng-model: 'repo' }
       %input{ type: 'submit', value: 'Get Data' }
       Grouped
-      %input{ type: 'checkbox', ng-model: 'grouped'}
+      %input{ type: 'checkbox', ng-model: 'grouped' }
 
     %p.error {{error}}
-    %gh-visualisation{ val: 'data' }
+    %gh-visualisation{ val: 'data', grouped: 'grouped' }
