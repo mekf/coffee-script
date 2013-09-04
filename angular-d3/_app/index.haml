@@ -1,9 +1,11 @@
 !!! 5
-%html{ ng-app: 'angular-d3-demo'}
+%html{ ng-app: 'angularD3Demo'}
   %head
     %meta{ charset: 'utf-8'}
     %title AngularJS + D3.js
     %script{ src: '//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js'}
     %script{ src: '//cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js' }
     %script{ src: 'js/scripts.js'}
-  %body
+  
+  %body{ ng-ctrl: 'AppCtrl' }
+    %ghvisualisation{ val: 'data' }
