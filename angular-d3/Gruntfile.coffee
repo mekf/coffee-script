@@ -26,7 +26,7 @@ module.exports = (grunt) ->
 				]
 
 		coffee:
-			scripts:
+			dist:
 				files: [
 					expand: true,
 					cwd:    './_app/js',
